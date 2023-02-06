@@ -22,6 +22,8 @@ So the purpose of this project is to make sth that is thermally more stable, can
 
 这个项目开始时，我自以为很简单，随便拼一下就行。所以也没有很多的计划。但做的过程中，以及做完后，发现还是忽略了很多东西。
 
+从做体重计的时候，我错误的得出了“鸟更喜欢站杆”这个结论，以至于我一开始纠结于做一个加热站杆。
+
 A. 我一开始想做的是水暖站杆（想法来源于家里地暖），水的特性确实能让温度很稳定。
 ![image](https://user-images.githubusercontent.com/1382734/217002036-5b0dd2e6-5b75-4d1b-b261-a3caefaf3fbb.png)
 
