@@ -24,3 +24,11 @@ So the purpose of this project is to make sth that is thermally more stable, can
 
 我一开始想做的是水暖站杆（想法来源于家里地暖），水的特性确实能让温度很稳定。
 ![image](https://user-images.githubusercontent.com/1382734/217002036-5b0dd2e6-5b75-4d1b-b261-a3caefaf3fbb.png)
+
+如图，站杆上一个水流入口，一个水流出口。水流有一个外置/内置水泵带动，水在水箱内（大概保鲜盒的大小）被加热棒加热。
+经过2轮测试，我就发现几个问题：
+1. 两根水管带出来，很粗，不便于安装
+2. 热损耗很大，20C室温的情况下，30W的加热棒也不能让站杆到40C。
+3. 尽管我能控制水箱温度（~45C),但是站杆实际温度多少，我也不知道。
+
+于是，我改了一轮，将水箱，加热棒直接集成到站杆里。
