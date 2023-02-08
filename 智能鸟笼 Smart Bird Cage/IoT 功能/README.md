@@ -42,7 +42,6 @@ ESP的核心功能有：
 
 # Home Assitant:
 
-
 <img src="https://user-images.githubusercontent.com/1382734/217272975-b6ff87fa-e16d-4482-95ba-0aed1bb4f53a.png" width="900" height="600">
 
 HA的核心功能为：
