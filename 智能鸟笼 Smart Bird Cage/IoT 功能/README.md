@@ -1,4 +1,4 @@
-物联网部分主分三块，ESP32, Home Assistant 本地服务器 和 微信控制+推送。    及小米设备及小米网关
+物联网部分主分三块，ESP32, Home Assistant 本地服务器 和 NodeRed微信控制+推送。    及小米设备及小米网关
 
 前言：
 最早给小太阳育雏的时候，为了稳定温度，用小米温湿度传感器+小米智能开关+加热灯 + 一个封闭育雏箱，简单拼了一个“智能温控系统”。其实就是 “如果温度 > x°C，则关闭开关 | 如果温度 < x°C, 则打开开关”。
@@ -16,7 +16,9 @@ Anyway.
 
 
 ESP32:
+
 <img src="https://user-images.githubusercontent.com/1382734/217273326-d0e99e39-cd2b-41f0-9a1f-8914bd947908.png" width="400" height="300">
+
 ESP的核心功能有：
 1. 温度测量（共9个温度计）
   --在温度过低，或者过高时候，强制启动保暖/通风程序
@@ -29,8 +31,24 @@ ESP的核心功能有：
 4. 体重测量
   --集成ADS1232芯片，获取体重秤数据
 
+
+Home Assitant:
 <img src="https://user-images.githubusercontent.com/1382734/217272975-b6ff87fa-e16d-4482-95ba-0aed1bb4f53a.png" width="900" height="600">
 
+HA的核心功能为：
+1. APP的 UI以及前端控制
+2. 集成米家设备(如电动窗帘，增加温度测量、控制的冗余。
+3. 设计时担心若ESP32卡死，并且不能自我恢复, 可以进行power cycle。（目前看来概率挺小，并且ESP32本身集成WacthDog）
+
+
+
+
+微信推送+控制：
 
 <img src="https://user-images.githubusercontent.com/1382734/217273670-72937f08-5314-442f-9899-8162d8fda784.png" width="800" height="500">
+
+这部分做在了NodeRed里，因为NodeRed社区有现成的企业微信推送和收发模块。
+其实这个也可以做在HA里，自己调用收发的API就行。目前想法是这个HA instance主要给鸟笼使用，家用的智能控制放在了NodeRed里。
+
+
 
