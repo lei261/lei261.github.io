@@ -60,10 +60,7 @@ B. 虽然放弃了3D打印水暖站杆，但是可以直接尝试改良K&H的 PT
 这时候我的选项就只有平台了。
 基于前面的经历，我这次仔细画了图，确认了材料的厚度，仿真，中间每几步也做了测试。最终恒温平台做出来了。
 
-<img src="https://user-images.githubusercontent.com/1382734/1382734/217471071-b9672fb8-0658-4307-a17a-899f1349b5e7.png" width="800" height="600"> <br>
-
-
-![image](https://user-images.githubusercontent.com/1382734/217471071-b9672fb8-0658-4307-a17a-899f1349b5e7.png)
+<img src="https://user-images.githubusercontent.com/1382734/217471071-b9672fb8-0658-4307-a17a-899f1349b5e7.png" width="800" height="600"> <br>
 
 
 在用了几个月后，我比较满意，总体有几个发现：
