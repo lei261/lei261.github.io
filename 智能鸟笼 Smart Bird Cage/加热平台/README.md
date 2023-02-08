@@ -2,16 +2,16 @@
 
 The idea of this project comes from an exsiting product, K&H thermal perch, which is a pretty good idea IMO. However, its reviews have been either extremely good or extremely poor, mostly due to its inconsistent temperature. In the low star reviews, consumers are complaining either product is not warm enough, or product is too hot that it burned a concure's feet. As a user, I don't know what the temperatue is at any given time. So, good idea, but I want sth a little bit better.
 
-![image](https://user-images.githubusercontent.com/1382734/216394509-73d11a27-817f-42f5-8a2e-8797cb25eaf5.png)
+<img src="https://user-images.githubusercontent.com/1382734/216394509-73d11a27-817f-42f5-8a2e-8797cb25eaf5.png" width="1200" height="450">
 
 
 --------------------------------
 
-期间也注意到过这个:
-![image](https://user-images.githubusercontent.com/1382734/216998655-c9d83915-6c71-48a7-b8c1-56735950deed.png)
+期间也注意到过这个:<br>
+<img src="https://user-images.githubusercontent.com/1382734/216998655-c9d83915-6c71-48a7-b8c1-56735950deed.png" width="350" height="450"> <br>
 这个有2个选择，硅胶套或者不锈钢套。卖家也表明不锈钢保温效果不如硅胶，但鹦鹉会咬硅胶，所以是消耗品。
 
-![image](https://user-images.githubusercontent.com/1382734/216999318-a674b5d0-ee39-4c8e-a9f2-b08e823a353e.png)
+<img src="https://user-images.githubusercontent.com/1382734/216999318-a674b5d0-ee39-4c8e-a9f2-b08e823a353e.png" width="850" height="450"> <br>
 这个是我做完了我的平台后才发现的。
 
 ---------------------------------------
@@ -25,7 +25,7 @@ So the purpose of this project is to make sth that is thermally more stable, can
 从做体重计的时候，我错误的得出了“鸟更喜欢站杆”这个结论，以至于我一开始纠结于做一个加热站杆。
 
 A. 我一开始想做的是水暖站杆（想法来源于家里地暖），水的特性确实能让温度很稳定。
-![image](https://user-images.githubusercontent.com/1382734/217002036-5b0dd2e6-5b75-4d1b-b261-a3caefaf3fbb.png)
+<img src="https://user-images.githubusercontent.com/1382734/217002036-5b0dd2e6-5b75-4d1b-b261-a3caefaf3fbb.png" width="1200" height="600"> <br>
 
 如图，站杆上一个水流入口，一个水流出口。水流有一个外置/内置水泵带动，水在水箱内（大概保鲜盒的大小）被加热棒加热。
 经过2轮人为测试，我就发现几个问题：
@@ -34,7 +34,7 @@ A. 我一开始想做的是水暖站杆（想法来源于家里地暖），水�
 3. 尽管我能控制水箱温度（~45C),但是站杆实际温度多少，我也不知道。
 
 于是，我改了一轮，将水箱，加热棒，温度计，直接集成到站杆里。
-![image](https://user-images.githubusercontent.com/1382734/217003808-a069c635-3005-4b4c-8c07-f2ff547b5dfe.png)
+<img src="https://user-images.githubusercontent.com/1382734/217003808-a069c635-3005-4b4c-8c07-f2ff547b5dfe.png" width="1200" height="600"> <br>
 站杆将由SLA打印，螺纹套以及密封胶确保密封性。
 经过人为测试，以及轻度鸟测试，效果还不错。
 但是发现了一个问题：
@@ -60,7 +60,10 @@ B. 虽然放弃了3D打印水暖站杆，但是可以直接尝试改良K&H的 PT
 这时候我的选项就只有平台了。
 基于前面的经历，我这次仔细画了图，确认了材料的厚度，仿真，中间每几步也做了测试。最终恒温平台做出来了。
 
-![6239b6f6f07bdc85526d75ffdf3847a](https://user-images.githubusercontent.com/1382734/217015111-c330386b-7742-44a2-8178-0cead12ace43.jpg)
+<img src="https://user-images.githubusercontent.com/1382734/1382734/217471071-b9672fb8-0658-4307-a17a-899f1349b5e7.png" width="800" height="600"> <br>
+
+
+![image](https://user-images.githubusercontent.com/1382734/217471071-b9672fb8-0658-4307-a17a-899f1349b5e7.png)
 
 
 在用了几个月后，我比较满意，总体有几个发现：
