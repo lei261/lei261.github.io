@@ -21,6 +21,11 @@ Anyway.
 
 <img src="https://user-images.githubusercontent.com/1382734/217273326-d0e99e39-cd2b-41f0-9a1f-8914bd947908.png" width="400" height="300">
 
+电路图：
+注意！！！ 我并不是EE出身，只不过有幸跟别人学了一点，大多都是自己谷歌出来的。没有任何保证, Use at your own risk.
+
+<a href="https://github.com/lei261/lei261.github.io/blob/main/%E6%99%BA%E8%83%BD%E9%B8%9F%E7%AC%BC%20Smart%20Bird%20Cage/IoT%20%E5%8A%9F%E8%83%BD/Bird%20Cage%20Control%20v4%20Schematic.pdf"> 查看电路图，Schematics Share </a>
+
 ESP的核心功能有：
 1. 温度测量（共9个温度计）
   --在温度过低，或者过高时候，强制启动保暖/通风程序
