@@ -32,5 +32,6 @@
 
 做完这个鸟笼，我也知道，我只完成了产品研发 0-1 或者 0-10（给一些credit xD), 离0-100 还有很远。
 虽然目前基本为0维护，达用户（家里领导）满意度90%，但是产品使用任然有痛点和小问题。
+![weight_scale](https://user-images.githubusercontent.com/1382734/217768421-e4f578c4-327b-4438-8c77-ed75de405e37.gif)
 
 ![](giphy.gif)
