@@ -10,7 +10,7 @@
 这时候女朋友尝试了育雏（几星期的小太阳），前前后后我埋了3只，有在医院死的，有突然暴毙的。IoT简介里更多感言。<br>
 这时候，本来的“易清洁鸟笼”需求逐渐转化成了“全功能鸟笼”。。。 <br>
 
-这个智能鸟笼尝试解决的痛点：
+### 这个智能鸟笼尝试解决的痛点：
 1. 鸟粮、鸟屎、羽粉经常掉到笼外。臭
 2. 屎盆不好清理 -- 💩 粘网，换屎袋麻烦
 3. 🐤 突然生病，发现状态不好的时候体重已经骤降
@@ -18,13 +18,15 @@
 <img src="https://user-images.githubusercontent.com/1382734/217746101-98a3f3c7-5575-46b0-8939-e733acb438d3.png" width="600" height="350">
 
 
+
+
+
 <p float="left">
   <img src="https://user-images.githubusercontent.com/1382734/217746431-8527086f-f650-4fbf-9a29-b9fe6ce2c672.jpg" width="500" width="800" height="800">
   <img src="https://user-images.githubusercontent.com/1382734/217746678-1e7c848c-dcfc-411d-a1c6-e4e8fa98b8bb.jpg" width="500" width="800" height="800">> 
 </p>
 
-
-
+![image](https://user-images.githubusercontent.com/1382734/217747677-f87f8d55-8207-491f-80d2-e662c9aec2db.png)
 ### 放github的目的：
 不是为了展示我有多nb。有一部分是想给认识到问题的人，一些思路一些想法，一些警言。更像是一个BLOG吧。<br>
 希望10年后的我会来看我今天做的，到底是离我的最终目的更近了，还是更远了。
@@ -32,4 +34,3 @@
 做完这个鸟笼，我也知道，我只完成了产品研发 0-1 或者 0-10（给一些credit xD), 离0-100 还有很远。
 虽然目前基本为0维护，达用户（家里领导）满意度90%，但是产品使用任然有痛点和小问题。
 
-<h1 align="center">Hi 👋, I'm Lei</h1>
