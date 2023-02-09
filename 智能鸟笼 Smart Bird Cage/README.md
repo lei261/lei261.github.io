@@ -17,10 +17,11 @@
 4. 🐤 怕冷，加热灯只能局部保温，温度不可控；某H的加热站杆温控不稳定（过热，不热都有），也有消费者上报 被低温烫伤的
 <img src="https://user-images.githubusercontent.com/1382734/217746101-98a3f3c7-5575-46b0-8939-e733acb438d3.png" width="600" height="350">
 
-<img src="https://user-images.githubusercontent.com/1382734/217746431-8527086f-f650-4fbf-9a29-b9fe6ce2c672.png" width="600" height="800">
 
-![982247abec7fad4af770da3320d5b49](https://user-images.githubusercontent.com/1382734/217746431-8527086f-f650-4fbf-9a29-b9fe6ce2c672.jpg)
+<img src="https://user-images.githubusercontent.com/1382734/217746431-8527086f-f650-4fbf-9a29-b9fe6ce2c672.jpg" width="600" height="800">
+<img src="https://user-images.githubusercontent.com/1382734/217746678-1e7c848c-dcfc-411d-a1c6-e4e8fa98b8bb.jpg" width="600" height="800">
 
+![ec7fa07a15146fa80992656dcdc297f](https://user-images.githubusercontent.com/1382734/217746678-1e7c848c-dcfc-411d-a1c6-e4e8fa98b8bb.jpg)
 
 ### 放github的目的：
 不是为了展示我有多nb。有一部分是想给认识到问题的人，一些思路一些想法，一些警言。更像是一个BLOG吧。<br>
