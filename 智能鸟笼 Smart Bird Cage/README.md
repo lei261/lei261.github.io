@@ -14,9 +14,12 @@
 1. 鸟粮、鸟屎、羽粉经常掉到笼外。臭
 2. 屎盆不好清理 -- 💩 粘网，换屎袋麻烦
 3. 🐤 突然生病，发现状态不好的时候体重已经骤降
-4. 🐤 怕冷，加热灯只能局部保温，温度不可能；某H的加热站杆温控不稳定（过热，不热都有），也有消费者上报 被低温烫伤的
-![image](https://user-images.githubusercontent.com/1382734/217746101-98a3f3c7-5575-46b0-8939-e733acb438d3.png)
+4. 🐤 怕冷，加热灯只能局部保温，温度不可控；某H的加热站杆温控不稳定（过热，不热都有），也有消费者上报 被低温烫伤的
+<img src="https://user-images.githubusercontent.com/1382734/217746101-98a3f3c7-5575-46b0-8939-e733acb438d3.png" width="600" height="350">
 
+<img src="https://user-images.githubusercontent.com/1382734/217746431-8527086f-f650-4fbf-9a29-b9fe6ce2c672.png" width="600" height="800">
+
+![982247abec7fad4af770da3320d5b49](https://user-images.githubusercontent.com/1382734/217746431-8527086f-f650-4fbf-9a29-b9fe6ce2c672.jpg)
 
 
 ### 放github的目的：
