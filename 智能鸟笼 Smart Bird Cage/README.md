@@ -17,7 +17,7 @@
 希望10年后的我会来看我今天做的，到底是离我的最终目的更近了，还是更远了。
 
 做完这个鸟笼，我也知道，我只完成了产品研发 0-1 或者 0-10（给一些credit xD), 离0-100 还有很远。
-虽然目前基本为0维护，达用户（家里领导）满意度90%，但是产品使用仍然有一些小问题。
+虽然目前基本为0维护，达到用户（家里领导）90%满意度，但是产品使用仍然有一些小问题。
 
 ## 这个智能鸟笼尝试解决的痛点：<br>
 1. 鸟粮、鸟屎、羽粉经常掉到笼外。臭 <br>
@@ -36,7 +36,7 @@
 
 
 
-### 封闭式鸟笼
+### 封闭式鸟笼：
 封闭式鸟笼有以下优点；
 1. 控制干垃圾在笼子里    -> 笼外地板是干净的
 2. 控制臭味在笼子里      -> 笼外是不臭的
@@ -56,18 +56,19 @@
 
 
 
-### 屎盆
+### 屎盆：
 
 涂层丝网 -> 减少粘网，实际使用中 基本湿纸巾一擦就掉<br>
 
-![lv_0_20230209174650](https://user-images.githubusercontent.com/1382734/217778752-ac42850c-e7c1-40c6-afcf-614e3f22c1c7.gif) <br>
+<img src="https://user-images.githubusercontent.com/1382734/217778752-ac42850c-e7c1-40c6-afcf-614e3f22c1c7.gif" width="500" height="600"> <br>
+
 
 拉绳式松紧带薄膜（原来大多是兔子用，现小红书上很多鸟已经转到拉绳式的了，所以也不是什么新soln）<br>
 
-![lv_0_20230209180024](https://user-images.githubusercontent.com/1382734/217781124-411673ce-9b92-44be-8d67-892192a97b9d.gif) <br>
+<img src="https://user-images.githubusercontent.com/1382734/217781124-411673ce-9b92-44be-8d67-892192a97b9d.gif" width="500" height="600"> <br>
 
 
-### 体重秤
+### 体重秤：
 形态选择：
   1. 站杆
   2. 平台
@@ -77,11 +78,21 @@
 因为期望鸟每天都能上去几次，我想调查鸟最喜欢哪个形态的休息地点。我做了一个测试，在一个空鸟笼内（只有铁丝网，木板，木头站杆），我用摄像头记录了鸟活动场景。<br>
 结论是鸟最喜欢站杆，他每天会花大量的时间站在站杆上，所以我最终尝试去做（1）。虽然后面事实证明这个想法以及验证方法是有问题的。。。。 
 
-![weight_scale](https://user-images.githubusercontent.com/1382734/217848274-cddb788c-e8e6-48c4-b6ba-d640636e37e1.gif)
+<img src="https://user-images.githubusercontent.com/1382734/217848274-cddb788c-e8e6-48c4-b6ba-d640636e37e1.gif" width="500" height="900"> <br>
 
 
-### 恒温平台 + 暖风
-<img src="https://user-images.githubusercontent.com/1382734/217854277-898554a6-f36b-4a72-81d2-61403eea7aac.jpg" width="600" height="350"> <br>
+### 恒温平台 + 暖风：
+两者都是由PTC加热器 + 宇电 PID控制器
+
+<img src="https://user-images.githubusercontent.com/1382734/217854277-898554a6-f36b-4a72-81d2-61403eea7aac.jpg" width="850" height="600"> <br>
 <img src="https://user-images.githubusercontent.com/1382734/217856365-37b90a3c-6d18-47cd-8c56-a22942fe6f14.jpg" width="600" height="350"> <br>
+
+
+
+目前看来，🐤洗完澡 以及 午觉时段 都很喜欢这个平台。
+
+<img src="https://user-images.githubusercontent.com/1382734/217888187-a3d0e99a-4426-4465-834d-2915c4b31577.jpg" width="800" height="500"> <br>
+
+
 
 
