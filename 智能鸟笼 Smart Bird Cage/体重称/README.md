@@ -31,4 +31,9 @@
 在决定做站杆后，因为之前做 水暖站杆 时发现，3D打印的站杆表面较滑（砂纸 + 粗糙纹路 效果也不佳），加硅胶套/吸汗带/牛皮 会导致这是一个需要被维护的产品。
 最后决定将免维护为高优先级，决定了用花椒木。
 
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/1382734/217904217-c510e0ec-7804-4417-a535-1c0bce98a598.png" width="500" width="800" height="400">
+  <img src="https://user-images.githubusercontent.com/1382734/217904370-c78c4dd8-1593-4a46-8629-edb7e48e7483.png" width="500" width="800" height="400">
+</p>
+
 
