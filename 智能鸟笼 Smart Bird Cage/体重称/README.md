@@ -77,4 +77,17 @@ $FSR * 0.0001 = 1000nV$ <br>
 在研究了Analog Device 和 TI 的ADC catalog之后，以及比较淘宝价格（因为芯片便宜不代表我能以合适的样品价买到），最终选了ADS1232。
  <img src="https://user-images.githubusercontent.com/1382734/217997275-2cbf35b4-84b0-468f-a1dd-d4332595ade9.png" width="900" height="200"> <br>
 
+### 软件 / 固件：
+虽然很多人说ADS1232不是SPI device，但他确实应该是可以用SPI来读取的。TI官方也推荐用SPI来读。
+ <img src="https://user-images.githubusercontent.com/1382734/218010421-612e8970-cf23-4875-9b7b-85dd85aa6a0e.png" width="700height="100"> <br>
+ 
+ <a href="https://e2e.ti.com/support/data-converters-group/data-converters/f/data-converters-forum/1061517/ads1232-interfacing-of-microcontroller-with-ads1232"> 参考链接 </a>
+
+ 在尝试了一圈后，发现最简单的是用HX711 Gain128来读 😂
+ 虽然说ADS1232只需要24个pulse就可以读数据，HX711 Gain128有25个pulse。但在ADS1232 datasheet中，官方推荐读25个pulse，防止万一被卡咋上一个cycle里。
+  
+  <img src="https://user-images.githubusercontent.com/1382734/218011220-12109ed6-3510-4b46-9a77-8107a53d6862.png" width="800" height="1000"> <br>
+
+有了正确的Library后，考虑到鸟会在站杆上跳/活动 导致测量不稳定；加上一些算法，如取多点Avg，比较一组数据中最大最小值 等等
+软件逻辑还需根据具体情况调试 以及 测试， 以降低误测
 
