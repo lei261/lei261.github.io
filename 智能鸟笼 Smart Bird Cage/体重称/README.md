@@ -75,5 +75,5 @@ A：看NSB（Noise-free bits) <br>
 
 B: 直接算Vpeak-peak
 像ADS1232这个芯片, $Vref = AVDD ~= 5V$ 。 $FSR = Vref / gain (128) = 39mV$ <br>
-要达到+/-0.1g，也就需要ADC $Vpp = 0.2 / 1000 = 0.02%$ 的精度<br>
-$FSR * 0.02% = 7.8mV$ <br>
+要达到+/-0.1g，也就需要 $ADC_Vpp = 0.2 / 1000 = 0.02$  万分之二的精度<br>
+$FSR * 0.02 = 7.8mV$ <br>
