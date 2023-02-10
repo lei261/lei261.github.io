@@ -76,12 +76,16 @@ $FSR * 0.0001 = 1000nV$ <br>
 
 在研究了Analog Device 和 TI 的ADC catalog之后，以及比较淘宝价格（因为芯片便宜不代表我能以合适的样品价买到），最终选了ADS1232。<br>
  <img src="https://user-images.githubusercontent.com/1382734/217997275-2cbf35b4-84b0-468f-a1dd-d4332595ade9.png" width="900" height="200"> <br>
+ 
+  <img src="https://user-images.githubusercontent.com/1382734/218013359-53116758-7e1e-4484-9898-e86d1735fe6e.png" width="700" height="500"> <br>
+
+
 
 #### 所以最终选择了 欧路达1kg传感器(￥100） + ADS1232 （￥14）
 
 ### 软件 / 固件：
 虽然很多人说ADS1232不是SPI device，但他确实应该是可以用SPI来读取的。TI官方也推荐用SPI来读。
- <img src="https://user-images.githubusercontent.com/1382734/218010421-612e8970-cf23-4875-9b7b-85dd85aa6a0e.png" width="700height="100"> <br>
+ <img src="https://user-images.githubusercontent.com/1382734/218010421-612e8970-cf23-4875-9b7b-85dd85aa6a0e.png" width="700" height="100"> <br>
  
  <a href="https://e2e.ti.com/support/data-converters-group/data-converters/f/data-converters-forum/1061517/ads1232-interfacing-of-microcontroller-with-ads1232"> 参考链接 </a>
 
