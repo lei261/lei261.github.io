@@ -63,19 +63,21 @@
 
 选ADC时，最重要的问题就是，我要多少精度？<br>
 我的鸟平时为140g，当时我错误的认为 -5g 就属于要送医的程度了，实际问了医生大概是 -10g左右需要送医。<br>
-如果-5g就要送医了，精度最差我也要达到 +/- 0.5g，这样保证1g的精度。考虑到还会有噪音以及实际低于设计预期的情况，我将设计目标精度设为了0.1g, 也就是+-/ 0.05g 。
+如果-5g就要送医了，精度最差我也要达到 +/- 0.5g，这样保证1g的精度。考虑到还会有噪音以及实际低于设计预期的情况，我将设计目标精度设为了0.1g, 也就是+-/ 0.05g 。 <br>
 
-关于ADC，我建议大家更多阅读资料，我的只能给小白参考参考，开个思路
+关于ADC，我建议大家更多阅读资料，我的只能给小白参考参考，开个思路<br>
 好像有2种方法来看此ADC是否能达到你需求，但两者原理是一样的<br>
 A：看NSB（Noise-free bits) <br>
-B: 直接算Vpeak-peak
+B: 直接算Vpeak-peak <br>
 像ADS1232这个芯片, $Vref = AVDD ~= 5V$, 传感器激励电压 0.2mV/V。 $FSR = V_excit * AVDD = 10mV$ <br>
 要达到+/-0.1g，也就需要 $ADCVpp = 0.1 / 1000 = 0.0001$  --> 万分之一的精度<br>
 $FSR * 0.0001 = 1000nV$ <br>
-所以如果我们选择一个ADC Vpp-noise <= 1000nV,就能达到目标
+所以如果我们选择一个ADC Vpp-noise <= 1000nV,就能达到目标<br>
 
-在研究了Analog Device 和 TI 的ADC catalog之后，以及比较淘宝价格（因为芯片便宜不代表我能以合适的样品价买到），最终选了ADS1232。
+在研究了Analog Device 和 TI 的ADC catalog之后，以及比较淘宝价格（因为芯片便宜不代表我能以合适的样品价买到），最终选了ADS1232。<br>
  <img src="https://user-images.githubusercontent.com/1382734/217997275-2cbf35b4-84b0-468f-a1dd-d4332595ade9.png" width="900" height="200"> <br>
+
+#### 所以最终选择了 欧路达1kg传感器(￥100） + ADS1232 （￥14）
 
 ### 软件 / 固件：
 虽然很多人说ADS1232不是SPI device，但他确实应该是可以用SPI来读取的。TI官方也推荐用SPI来读。
@@ -83,11 +85,11 @@ $FSR * 0.0001 = 1000nV$ <br>
  
  <a href="https://e2e.ti.com/support/data-converters-group/data-converters/f/data-converters-forum/1061517/ads1232-interfacing-of-microcontroller-with-ads1232"> 参考链接 </a>
 
- 在尝试了一圈后，发现最简单的是用HX711 Gain128来读 😂
- 虽然说ADS1232只需要24个pulse就可以读数据，HX711 Gain128有25个pulse。但在ADS1232 datasheet中，官方推荐读25个pulse，防止万一被卡咋上一个cycle里。
+ 在尝试了一圈后，发现最简单的是用HX711 Gain128来读 😂<br>
+ 虽然说ADS1232只需要24个pulse就可以读数据，HX711 Gain128有25个pulse。但在ADS1232 datasheet中，官方推荐读25个pulse，防止万一被卡咋上一个cycle里。<br>
   
   <img src="https://user-images.githubusercontent.com/1382734/218011220-12109ed6-3510-4b46-9a77-8107a53d6862.png" width="800" height="1000"> <br>
 
-有了正确的Library后，考虑到鸟会在站杆上跳/活动 导致测量不稳定；加上一些算法，如取多点Avg，比较一组数据中最大最小值 等等
+有了正确的Library后，考虑到鸟会在站杆上跳/活动 导致测量不稳定；加上一些算法，如取多点Avg，比较一组数据中最大最小值 等等<br>
 软件逻辑还需根据具体情况调试 以及 测试， 以降低误测
 
